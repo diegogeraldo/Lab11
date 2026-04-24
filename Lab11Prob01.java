@@ -6,8 +6,8 @@ public class Lab11Prob01 {
         DataOutputStream out = null;
 
         try {
-            in = new DataInputStream(new FileInputStream("src/person.dat"));
-            out = new DataOutputStream(new FileOutputStream("src/people-copy.dat"));
+            in = new DataInputStream(new FileInputStream("src\\people.dat"));
+            out = new DataOutputStream(new FileOutputStream("src\\people-copy.dat"));
 
             while (true) {
                 int age = in.readInt();
